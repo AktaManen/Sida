@@ -1,5 +1,8 @@
-p.ex4 {outline: thick ridge pink;}
 p {color: white;}
 body {background-color: black;}
 h1 {color: white;}
 li {color: white;}
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
