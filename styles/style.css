@@ -1,8 +1,27 @@
-p {color: white;}
-body {background-color: black;}
-h1 {color: white;}
-li {color: white;}
+body {background-color: #7c3d8f;}
+h1 {
+	color: #ffcc66;
+	text-align: center;
+	text-shadow: 2px 2px #a55eba;
+}
+a {color: #ffcc66;}
+p {
+	color: #ffcc66;
+	text-align: center;
+}
+p.rub {
+	color: #ffcc66;
+	border: 2px #ffcc66;
+	outline-style: solid;
+	outline-color: #a55eba;
+	outline-width: thick;
+}
+p.vad {color: black;}
 ol {
-  counter-reset: section;
-  list-style-type: none;
+	color: #ffcc66;
+	text-align: center;
+}
+ul {
+	color: #ffcc66;
+	text-align: center;
 }
