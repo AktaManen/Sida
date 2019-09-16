@@ -1,12 +1,9 @@
-p {
-	color: white;
+p.out {
+	border: 1px solid black;
+	outline-style: solid;
+	outline-color: red;
 }
-body {
-	background-color: black;
-}
-h1 {
-	color: white;
-}
-li {
-	color: white;
-}
+p {color: white;}
+body {background-color: black;}
+h1 {color: white;}
+li {color: white;}
