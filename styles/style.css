@@ -12,7 +12,8 @@ p {
 p.rub {
 	color: #ffcc66;
 	border: 2px #ffcc66;
-	outline-style: solid;
+	border-style: solid;
+	outline-style: outset;
 	outline-color: #a55eba;
 	outline-width: thick;
 }
@@ -25,3 +26,4 @@ ul {
 	color: #ffcc66;
 	text-align: center;
 }
+li {text-align: center;}
