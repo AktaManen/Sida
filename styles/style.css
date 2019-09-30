@@ -5,7 +5,7 @@ h1 {
 	text-shadow: 2px 2px #a55eba;
 	font-size: 40px;
 }
-a {
+a.video {
 	color: #ffcc66;
 	background-color: #a55eba;
 	padding: 10px 10px;
@@ -13,6 +13,19 @@ a {
 	display: inline-block;
 	outline-style: outset;
 	outline-color: #ffcc66
+}
+a {color: #ffcc66;}
+div {display:none;}
+span.AR155:hover + div.AR155 {display: block;}
+span.AR33:hover + div.AR33 {display: block;}
+span.Nissan:hover + div.Nissan {display: block;}
+span.Viper:hover + div.Viper {display: block;}
+span.M1:hover + div.M1 {display: block;}
+span.Toyota:hover + div.Toyota {display: block;}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 p {
 	color: #ffcc66;
@@ -28,15 +41,15 @@ p.rub {
 	font-size: 20px;
 	margin: 7px 500px;
 }
-p.vad {color: black; margin: 75px 0px 0px}
+p.vad {color: black; margin: 300px 0px 0px}
 ol {
 	color: #ffcc66;
 	text-align: center;
-	margin: 0px 550px
+	margin: 0px 540px
 }
 ul {
 	color: #ffcc66;
 	text-align: center;
-	margin: 0px 550px
+	margi: 0px 540px
 }
 li {text-align: center;}
